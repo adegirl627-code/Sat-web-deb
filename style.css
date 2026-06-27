@@ -1,0 +1,65 @@
+.Miss-Racheal {
+    color:blue;
+    background-color: yellow;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100px;
+font-weight: 400;
+font-style: italic;
+line-height: 1.5-1.8;
+text-align: center;
+
+}
+
+*{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    border: 10px solid black;
+    border-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+
+.box{
+    border: 5px solid red;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.phone{
+    font-size: 45px;
+
+
+}
+@media(max-width: 250px) {
+    .phone{
+        font-size: 100px;
+    }
+}
+
+@media(max-width: 840px) {
+    .phone{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .phone{
+        font-size: 150px;
+    }
+}
+
+
+@media(max-width: 270px) {
+    .phone{
+        font-size: 65px;
+    }
+}
